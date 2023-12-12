@@ -1,0 +1,52 @@
+
+@font-face {
+    /* font-family: 'digital-7regular';
+    src: url('digital-7-webfont.woff2') format('woff2'),
+         url('digital-7-webfont.woff') format('woff');
+         */
+    font-family: 'cursed';
+    src: url('CursedTimerUlil-Aznm.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    
+    font-size: 20px;
+    /* backgroun d-color: #000; */
+
+}
+/* clock */
+#timer{
+    font-family: 'cursed';
+    font-size: 20px;
+    /* background-color: #000; */
+    color: red;
+}
+
+#info {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translateY(-294px);
+    transform: translateX(-682px);
+    /* margin-left: -500px; */
+    background-color: black;
+    color: green;
+    padding: 20px;
+    text-align: left;
+    display:flex;
+    
+    border: 5px solid red ;
+    color: offwhite;
+    border-radius: 10%;
+    
+    min-width: 1143px;
+    margin: 0 auto;
+    min-height: 205px;
+    font-size: 200px;
+  
+}
+
+
